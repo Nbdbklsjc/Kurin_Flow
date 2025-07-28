@@ -10,12 +10,12 @@ created_at: "14/6/2025"
 ---
 
 ## Day 1 – 14/6/2025 – 6 hours  
-Held a brainstorming session with the team to finalize the core architecture of the system: two containers, one for sensing and dosing, the other for chemical treatment and filtration. Created a rough whiteboard diagram showing the water path, sensor placement, and logical flow. Read two papers on the effectiveness of H₂O₂ for microbial disinfection and began researching proper dosing ranges for 1-liter batches.
+Brainstormed to finalize the core architecture of the system: two containers, one for sensing and dosing, the other for chemical treatment and filtration. Created a rough whiteboard diagram showing the water path, sensor placement, and logical flow. Read two papers on the effectiveness of H₂O₂ for microbial disinfection and began researching proper dosing ranges for 1-liter batches.
 
 ---
 
 ## Day 2 – 15/6/2025 – 5 hours  
-Started designing Container 1 in Fusion 360. Integrated a modular top lid for easy sensor placement and created mounting holes for the pH and turbidity sensors. Simulated the fit of a standard peristaltic pump inlet tube and added a dosing port for hydrogen peroxide injection. Also calculated the internal volume to ensure it holds a minimum of 2 liters with 10% overflow margin.
+Started designing Container 1. Integrated a modular top lid for easy sensor placement and created mounting holes for the pH and turbidity sensors. Simulated the fit of a standard peristaltic pump inlet tube and added a dosing port for hydrogen peroxide injection. Also calculated the internal volume to ensure it holds a minimum of 2 liters with 10% overflow margin.
 
 ---
 
@@ -25,12 +25,12 @@ Worked on the 3D model of Container 2, which is more complex due to the chemical
 ---
 
 ## Day 4 – 17/6/2025 – 5 hours  
-Imported the Fusion 360 models into SolidWorks to perform basic flow analysis. Simulated gravity-based flow from Container 1 to Container 2 using a valve-controlled outlet. Adjusted the diameter of the connecting pipe from 8mm to 12mm to reduce back-pressure. Identified a dead zone in mixing and redesigned the paddle to a 3-arm fan type. Documented all changes with versioned exports.
+Imported the models into SolidWorks to perform basic flow analysis. Simulated gravity-based flow from Container 1 to Container 2 using a valve-controlled outlet. Adjusted the diameter of the connecting pipe from 8mm to 12mm to reduce back-pressure. Identified a dead zone in mixing and redesigned the paddle to a 3-arm fan type. Documented all changes with versioned exports.
 
 ---
 
 ## Day 5 – 18/6/2025 – 5 hours  
-Rendered high-resolution images of the full assembly. Created exploded diagrams to explain the chemical dropper mechanism and sensor modules. Exported STL files and shared them with the team for early feedback. Spent the rest of the time researching sensor calibration protocols, especially for pH probes using SparkFun’s analog circuit.
+Rendered high-resolution images of the full assembly. Created exploded diagrams to explain the chemical dropper mechanism and sensor modules. Exported STL files and shared them with my mentor for early feedback. Spent the rest of the time researching sensor calibration protocols, especially for pH probes using SparkFun’s analog circuit.
 
 ---
 
@@ -60,7 +60,7 @@ Focused on visual documentation. Added clear labels to Fritzing diagrams, showin
 ---
 
 ## Day 11 – 24/6/2025 – 4 hours  
-Researched best practices for activated carbon filtration. Chose a combination of gravel (lower layer) and carbon (upper layer) in a 3D-printed mesh tube. Modeled the filter in Fusion 360 and added it to the outflow pipe of Container 2. Created an accessible filter cap so users can replace the media.
+Researched best practices for activated carbon filtration. Chose a combination of gravel (lower layer) and carbon (upper layer) in a 3D-printed mesh tube. Modeled the filter and added it to the outflow pipe of Container 2. Created an accessible filter cap so users can replace the media.
 
 ---
 
@@ -80,8 +80,6 @@ Built safety features into the system code:
 - Emergency drain button support  
 - pH warning range buzzer
 
-Printed and installed the servo tray, tested drop accuracy using alum powder. Cleaned up unused wiring and added zip ties for neatness.
-
 ---
 
 ## Day 15 – 28/6/2025 – 6 hours  
@@ -90,7 +88,7 @@ Analyzed power requirements. Used a USB multimeter to log current draw across di
 ---
 
 ## Day 16 – 29/6/2025 – 5 hours  
-Finalized the 3D enclosures. Added mounting tabs and waterproof gasket channels. Designed the sensor holes to include silicone sealing rings. Uploaded all .STL and .F3D files to the GitHub `/src` folder. Took beauty shots of the assembled unit for documentation.
+Finalized the 3D enclosures. Added mounting tabs and waterproof gasket channels. Designed the sensor holes to include silicone sealing rings. Took beauty shots of the assembled unit for documentation.
 
 ---
 
@@ -105,7 +103,7 @@ Finished the STL model,  and README. Cross-checked BOM links and captured missin
 ---
 
 ## Day 19 – 2/7/2025 – 3 hours  
-Narrated the explanation of the Arduino logic and chemical dosing. Also created a short timelapse showing the 3D print of the paddle stirrer.
+Narrated the explanation of the Arduino logic and chemical dosing. Also created a short timelapse showing the paddle stirrer.
 
 ---
 
