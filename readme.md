@@ -12,7 +12,7 @@ Kurin Flow cycles contaminated water through sensor-guided pH/turbidity detectio
 
 ---
 
-## 🛠 How It Works
+##  How It Works
 
 - **Container 1**: Holds incoming water, measures pH/TDS/turbidity, and doses H₂O₂ using a peristaltic pump.
 - **Container 2**: Adds lime or alum via a servo-controlled chemical tray. Water is mixed, filtered (gravel + carbon), and returned.
